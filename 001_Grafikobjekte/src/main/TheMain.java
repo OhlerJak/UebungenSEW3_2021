@@ -5,6 +5,8 @@ import grafikobjekte.*;
 
 public class TheMain {
     public static void main(String[] args) throws GrafxException {
+
+        //Für Testzwecke:
         Grafikframe grafikframe = new Grafikframe(700,700);
         grafikframe.addMantschkerl(new Mantschkerl(new Punkt(300,200),1.2));
         grafikframe.addMantschkerl(new Mantschkerl(new Punkt(400,400),0.1));
