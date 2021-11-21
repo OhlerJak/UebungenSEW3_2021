@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" fx:controller="person.viewController.PersonVC" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"  fx:id="vBox">
+    <padding>
+        <Insets top="15" right="25" bottom="20" left="15" />
+    </padding>
+    <HBox spacing="5" fx:id="gpKey">
+        <Label fx:id="lbSvnr" text="SVNR:"/>
+
+    <TextField fx:id="tfSvnr" />
+
+    </HBox>
+
+    <GridPane hgap="5" vgap="5" fx:id="gpNonKey">
+
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="lbNname" text="Nachname:"/>
+
+      <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="tfNname"/>
+
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="lbVname" text="Vorname:"/>
+
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="tfVname"/>
+
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="lbGebDat" text="Geburtsdatum:"/>
+
+
+        <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="dpGebDat"/>
+
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="lbGroesse" text="Größe:"/>
+
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="tfGroesse"/>
+
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="lbGeschlecht" text="Geschlecht:"/>
+
+        <ChoiceBox GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="cbGeschlecht"/>
+    </GridPane>
+    <HBox spacing="5" alignment="BASELINE_RIGHT" fx:id="hbButtons">
+        <Button fx:id="btCancel" onAction="#btCancelOnAction" text="Cancel"/>
+        <Button fx:id="btSave" onAction="#btSaveOnAction" text="Save" defaultButton="true"/>
+    </HBox>
+    <TextField fx:id="tfMsg" editable="false"/>
+
+</VBox>
