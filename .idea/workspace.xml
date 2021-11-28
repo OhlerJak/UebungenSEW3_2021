@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="added out to ignore">
+    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007_upn/007_upn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007_upn/src/gui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007_upn/src/gui/View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007_upn/src/main/TheMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007_upn/src/model/Rechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007_upn/src/model/RechnerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2021_18_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2021_18_58__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -10,11 +18,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21EqbMktE14tqkETNeXvjCokV89" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +44,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/006_PersonenwartungFXML" />
@@ -33,20 +52,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.TheMain (5)">
-    <configuration name="TheMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.TheMain" />
-      <module name="002_vererbteGrafikobjekte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TheMain">
     <configuration name="TheMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.TheMain" />
       <module name="003_bäckerrei" />
@@ -99,13 +105,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.TheMain" />
+      <module name="007_upn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheMain" />
         <item itemvalue="Application.TheMain (5)" />
         <item itemvalue="Application.TheMain (4)" />
         <item itemvalue="Application.TheMain (3)" />
         <item itemvalue="Application.TheMain (2)" />
-        <item itemvalue="Application.TheMain (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637516667484</updated>
       <workItem from="1637516668630" duration="1636000" />
-      <workItem from="1637582817139" duration="264000" />
+      <workItem from="1638094078847" duration="3201000" />
     </task>
     <task id="LOCAL-00001" summary="first comit">
       <created>1637517491415</created>
@@ -127,14 +157,7 @@
       <option name="project" value="LOCAL" />
       <updated>1637517491415</updated>
     </task>
-    <task id="LOCAL-00002" summary="added out to ignore">
-      <created>1637583052903</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1637583052903</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,10 +173,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first comit" />
-    <MESSAGE value="added out to ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added out to ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="first comit" />
   </component>
 </project>
