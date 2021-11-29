@@ -4,7 +4,8 @@ import java.util.Stack;
 
 public class Rechner {
 
-    private Stack<Double> numberstack;
+   private Stack<Double> numberstack;
+
 
 
     public Rechner(){
@@ -60,6 +61,9 @@ public class Rechner {
 
         numberstack.push(erg);
         return erg;
+    }
+    public Stack getStack(){
+        return numberstack;
     }
 
 
