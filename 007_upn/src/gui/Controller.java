@@ -1,5 +1,6 @@
 package gui;
 
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -73,7 +74,7 @@ public class Controller {
     @FXML
     public void initialize(){
         showmes("Fertig erstellt! ");
-        lvstack.setItems((ObservableList) model.getStack());
+
     }
 
     public void btfunconact(ActionEvent actionEvent)  {
@@ -82,8 +83,9 @@ public class Controller {
         try {
 
            nr = Double.parseDouble(tfinput.getText());
-            model.addNumber(nr);
+
             tfinput.setText("");
+
 
         }catch (Exception ex){
             showmes("ungültige Eingabe");
@@ -91,24 +93,34 @@ public class Controller {
         try {
             switch (func) {
                 case "+":
+                    model.addNumber(nr);
                     model.addition();
                     break;
                 case "-":
+                    model.addNumber(nr);
                     model.subtraction();
                     break;
                 case "*":
+                    model.addNumber(nr);
                     model.multiplication();
                     break;
                 case "/":
+                    model.addNumber(nr);
                     model.division();
-                    break;
-                case "enter":
 
                     break;
+                case "enter":
+                    model.addNumber(nr);
+                    break;
+                case "C":
+                    break;
+                case "CE":
+                    model.resetStack();
                 default:
                     showmes("Unbekannter Button");
                     break;
             }
+            lvstack.setItems(FXCollections.observableList(model.getStack()));
         }catch (RechnerException ex){
             showmes(ex.getMessage());
         }

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Nr buttons working">
+    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Rechner finished&#10;GUI fehlt">
+      <change afterPath="$PROJECT_DIR$/008_toDo/008_toDo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/008_toDo/src/todo/model/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/007_upn/src/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/gui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007_upn/src/main/TheMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/main/TheMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007_upn/src/gui/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/gui/View.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/007_upn/src/model/Rechner.java" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/model/Rechner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21EqbMktE14tqkETNeXvjCokV89" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +43,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/006_PersonenwartungFXML" />
@@ -108,6 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TheMain" />
@@ -127,7 +147,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637516667484</updated>
       <workItem from="1637516668630" duration="1636000" />
-      <workItem from="1637582817139" duration="264000" />
+      <workItem from="1638094078847" duration="6182000" />
+      <workItem from="1639306531804" duration="3562000" />
     </task>
     <task id="LOCAL-00001" summary="first comit">
       <created>1637517491415</created>
@@ -136,21 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637517491415</updated>
     </task>
-    <task id="LOCAL-00002" summary="added out to ignore">
-      <created>1637583052903</created>
+    <task id="LOCAL-00002" summary="Rechner finished&#10;GUI fehlt">
+      <created>1638120725174</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1637583052903</updated>
+      <updated>1638120725174</updated>
     </task>
-    <task id="LOCAL-00003" summary="Nr buttons working">
-      <created>1638189465127</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1638189465127</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,8 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first comit" />
-    <MESSAGE value="added out to ignore" />
-    <MESSAGE value="Nr buttons working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nr buttons working" />
+    <MESSAGE value="Rechner finished&#10;GUI fehlt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rechner finished&#10;GUI fehlt" />
   </component>
 </project>

@@ -65,7 +65,7 @@ public class Rechner {
     public Stack getStack(){
         return numberstack;
     }
-
+    public void resetStack(){numberstack = new Stack<Double>();}
 
 
 

@@ -30,7 +30,9 @@
         <Button fx:id="btminus" minHeight="50" minWidth="50" onAction="#btfunconact" text="-" GridPane.columnIndex="4" GridPane.rowIndex="1" />
         <Button fx:id="btmal" minHeight="50" minWidth="50" onAction="#btfunconact" text="*" GridPane.columnIndex="5" GridPane.rowIndex="0" />
         <Button fx:id="btdiv" minHeight="50" minWidth="50" onAction="#btfunconact" text="/" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-        <Button fx:id="btenter" defaultButton="true" minHeight="50" minWidth="50" onAction="#btfunconact" prefHeight="50.0" prefWidth="100.0" text="enter" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+        <Button fx:id="btC" minHeight="50" minWidth="50" onAction="#btfunconact" text="C" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Button fx:id="btCE" minHeight="50" minWidth="50" onAction="#btfunconact" text="CE" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Button fx:id="btenter" defaultButton="true" minHeight="50" minWidth="50" onAction="#btfunconact" prefHeight="50.0" prefWidth="100.0" text="enter" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="3" />
 
     </GridPane>
     <HBox>
