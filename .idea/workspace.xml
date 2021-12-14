@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Rechner finished&#10;GUI fehlt">
-      <change afterPath="$PROJECT_DIR$/008_toDo/008_toDo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/008_toDo/src/todo/model/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="ToDo erstellt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007_upn/src/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/gui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007_upn/src/gui/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/gui/View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007_upn/src/model/Rechner.java" beforeDir="false" afterPath="$PROJECT_DIR$/007_upn/src/model/Rechner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008_toDo/src/todo/model/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/008_toDo/src/todo/model/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoC.java" beforeDir="false" afterPath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +45,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.TheMain">
-    <configuration name="TheMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TheMain (1)">
+    <configuration name="TheMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.TheMain" />
-      <module name="003_bäckerrei" />
+      <module name="008_toDo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -130,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheMain (1)" />
         <item itemvalue="Application.TheMain" />
         <item itemvalue="Application.TheMain (5)" />
         <item itemvalue="Application.TheMain (4)" />
         <item itemvalue="Application.TheMain (3)" />
-        <item itemvalue="Application.TheMain (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +142,10 @@
       <updated>1637516667484</updated>
       <workItem from="1637516668630" duration="1636000" />
       <workItem from="1638094078847" duration="6182000" />
-      <workItem from="1639306531804" duration="3562000" />
+      <workItem from="1639306531804" duration="4196000" />
+      <workItem from="1639414334790" duration="884000" />
+      <workItem from="1639415311089" duration="1913000" />
+      <workItem from="1639494151856" duration="5889000" />
     </task>
     <task id="LOCAL-00001" summary="first comit">
       <created>1637517491415</created>
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638120725174</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ToDo erstellt">
+      <created>1639316515893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639316515893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first comit" />
     <MESSAGE value="Rechner finished&#10;GUI fehlt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rechner finished&#10;GUI fehlt" />
+    <MESSAGE value="ToDo erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="ToDo erstellt" />
   </component>
 </project>
