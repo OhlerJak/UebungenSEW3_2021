@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="ToDo erstellt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008_toDo/src/todo/model/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/008_toDo/src/todo/model/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoC.java" beforeDir="false" afterPath="$PROJECT_DIR$/008_toDo/src/todo/viewController/ToDoC.java" afterDir="false" />
-    </list>
+    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Übung fertig" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,13 +107,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,7 +143,7 @@
       <workItem from="1639306531804" duration="4196000" />
       <workItem from="1639414334790" duration="884000" />
       <workItem from="1639415311089" duration="1913000" />
-      <workItem from="1639494151856" duration="5889000" />
+      <workItem from="1639494151856" duration="5944000" />
     </task>
     <task id="LOCAL-00001" summary="first comit">
       <created>1637517491415</created>
@@ -168,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639316515893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Übung fertig">
+      <created>1639500679102</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639500679102</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +195,7 @@
     <MESSAGE value="first comit" />
     <MESSAGE value="Rechner finished&#10;GUI fehlt" />
     <MESSAGE value="ToDo erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="ToDo erstellt" />
+    <MESSAGE value="Übung fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung fertig" />
   </component>
 </project>

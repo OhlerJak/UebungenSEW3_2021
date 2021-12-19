@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="235.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="person.viewController.PersonC">
+  <children>
+    <Label layoutX="14.0" layoutY="14.0" text="SVNR:" />
+    <TextField fx:id="tfSvnr" layoutX="100.0" layoutY="10.0" prefHeight="25.0" prefWidth="100.0" />
+    <Button fx:id="btToDo" onAction="#btToDoOnAction" text="ToDos" layoutX="260.0" layoutY="12.0"/>
+    <AnchorPane fx:id="apNonKey">
+      <Label layoutX="14.0" layoutY="42.0" text="Nachname:" />
+      <TextField fx:id="tfNname" layoutX="100.0" layoutY="38.0" />
+      <Label layoutX="14.0" layoutY="70.0" text="Vorname:" />
+      <TextField fx:id="tfVname" layoutX="100.0" layoutY="66.0" />
+      <Label layoutX="14.0" layoutY="98.0" text="Geburtsdatum:" />
+      <DatePicker fx:id="dpGebDat" layoutX="100.0" layoutY="94.0" prefHeight="25.0" prefWidth="129.0" />
+      <Label layoutX="14.0" layoutY="126.0" text="Größe:" />
+      <TextField fx:id="tfGroesse" layoutX="100.0" layoutY="122.0" prefHeight="25.0" prefWidth="60.0" />
+      <Label layoutX="14.0" layoutY="154.0" text="Geschlecht:" />
+      <ChoiceBox fx:id="cbGeschlecht" layoutX="100.0" layoutY="150.0" prefHeight="25.0" prefWidth="60.0" />
+    </AnchorPane>
+    <Button fx:id="btSave" layoutX="265.0" layoutY="175.0" mnemonicParsing="false" onAction="#btSaveOnAction" text="Save" />
+    <Button fx:id="btCancel" layoutX="203.0" layoutY="175.0" mnemonicParsing="false" onAction="#btCancelOnAction" text="Cancel" />
+    <TextField fx:id="tfMsg" editable="false" layoutX="14.0" layoutY="204.0" prefHeight="25.0" prefWidth="293.0" />
+  </children>
+</AnchorPane>
