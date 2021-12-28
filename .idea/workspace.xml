@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Übung fertig" />
+    <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Übung erweitert">
+      <change afterPath="$PROJECT_DIR$/010_livecoding/010_livecoding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_livecoding/src/main/TheMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_livecoding/src/model/Benutzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_livecoding/src/model/RegisterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_livecoding/src/serial/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_livecoding/src/viewcontroller/RegisterC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_livecoding/src/viewcontroller/registerV.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +52,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.TheMain (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.TheMain" />
       <module name="008_toDo" />
@@ -103,19 +126,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +206,7 @@
     <MESSAGE value="Rechner finished&#10;GUI fehlt" />
     <MESSAGE value="ToDo erstellt" />
     <MESSAGE value="Übung fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung fertig" />
+    <MESSAGE value="Übung erweitert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung erweitert" />
   </component>
 </project>
