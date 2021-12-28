@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -21,6 +22,8 @@ public class RegisterC {
   public GridPane gpinput;
   public HBox hbsearch;
   public HBox hbbtn;
+  public Button btSearch;
+  public Button btSave;
 
 
   @FXML
@@ -75,7 +78,7 @@ public class RegisterC {
   }
 
   @FXML
-  public void btSearch(ActionEvent actionEvent) {search();}
+  public void btSearchOnAction(ActionEvent actionEvent) {search();}
 
   
   private void save() {
@@ -132,6 +135,11 @@ public class RegisterC {
     gpinput.setVisible(allowed);
     hbbtn.setVisible(allowed);
     hbsearch.setDisable(allowed);
+
+    btSave.setDefaultButton(allowed);
+    btSearch.setDefaultButton(!allowed);
+
+
 
   }
 

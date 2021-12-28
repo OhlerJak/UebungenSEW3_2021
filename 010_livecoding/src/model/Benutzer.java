@@ -2,7 +2,9 @@ package model;
 
 import serial.Catalog;
 
-public class Benutzer {
+import java.io.Serializable;
+
+public class Benutzer implements Serializable {
   private String email;
   private String nachname;
   private String vorname;

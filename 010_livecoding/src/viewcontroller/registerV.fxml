@@ -16,7 +16,7 @@
     <HBox spacing="10"  fx:id="hbsearch" >
         <Label text="E-Mail:"  />
         <TextField fx:id="tfEmail" />
-        <Button onAction="#btSearch" text="Suche"/>
+        <Button onAction="#btSearchOnAction" text="Suche" fx:id="btSearch"/>
     </HBox>
 
     <GridPane hgap="20" vgap="10" fx:id="gpinput">
@@ -31,7 +31,7 @@
 
     <HBox alignment="CENTER_RIGHT" spacing="20" fx:id="hbbtn">
         <Button onAction="#btCancelOnAction" text="Cancel" />
-        <Button onAction="#btSaveOnAction" text="Save" />
+        <Button onAction="#btSaveOnAction" text="Save" fx:id="btSave"/>
     </HBox>
 
    <padding>
