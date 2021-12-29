@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afae3ea7-9b97-4dcb-94ca-373a3972bcad" name="Default Changelist" comment="Übung erweitert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_livecoding/src/main/TheMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/010_livecoding/src/main/TheMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_livecoding/src/model/Benutzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/010_livecoding/src/model/Benutzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/010_livecoding/src/viewcontroller/RegisterC.java" beforeDir="false" afterPath="$PROJECT_DIR$/010_livecoding/src/viewcontroller/RegisterC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_livecoding/src/viewcontroller/registerV.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/010_livecoding/src/viewcontroller/registerV.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.TheMain (2)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.TheMain" />
       <module name="008_toDo" />
@@ -113,17 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TheMain (2)" />
@@ -148,8 +147,6 @@
       <workItem from="1639414334790" duration="884000" />
       <workItem from="1639415311089" duration="1913000" />
       <workItem from="1639494151856" duration="5944000" />
-      <workItem from="1639906965936" duration="82000" />
-      <workItem from="1640706482096" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="first comit">
       <created>1637517491415</created>
@@ -179,14 +176,7 @@
       <option name="project" value="LOCAL" />
       <updated>1639500679102</updated>
     </task>
-    <task id="LOCAL-00005" summary="Übung fertig">
-      <created>1639907031864</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1639907031864</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

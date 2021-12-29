@@ -16,6 +16,7 @@ import model.Benutzer;
 import model.RegisterException;
 
 import java.io.IOException;
+import java.util.regex.Pattern;
 
 public class RegisterC {
   //Bereiche
@@ -109,23 +110,43 @@ public class RegisterC {
 
   private void search(){
     String email = this.tfEmail.getText();
-    Benutzer benutzer = Benutzer.find(email);
-    if (benutzer == null) {
-      Alert info = new Alert(Alert.AlertType.INFORMATION, "Benutzer existiert nicht. Bitte erfassen!");
-      info.showAndWait();
-    }
-    else  {
-      tfNachname.setText(benutzer.getNachname());
-      tfVorname.setText(benutzer.getVorname());
-    }
 
-    setinputallowed(true);
+    if(checkEmail(email)) {
+
+      Benutzer benutzer = Benutzer.find(email);
+      if (benutzer == null) {
+        Alert info = new Alert(Alert.AlertType.INFORMATION, "Benutzer existiert nicht. Bitte erfassen!");
+        info.showAndWait();
+      } else {
+        tfNachname.setText(benutzer.getNachname());
+        tfVorname.setText(benutzer.getVorname());
+      }
+
+      setinputallowed(true);
+    }
+    else {
+      Alert error = new Alert(Alert.AlertType.ERROR,"Email ungültig");
+      error.showAndWait();
+    }
   }
   
   private void clear() {
     tfEmail.setText(""      );
     tfNachname.setText("");
     tfVorname.setText("");
+  }
+
+
+  private boolean checkEmail(String email){
+
+    //Regex aus https://howtodoinjava.com/java/regex/java-regex-validate-email-address/ kopiert
+    String regex = "^[\\w!#$%&’*+/=?`{|}~^-]+(?:\\.[\\w!#$%&’*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
+   // String regex = "^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
+
+    Pattern pattern = Pattern.compile(regex);
+
+    return pattern.matcher(email).matches();
+
   }
 
 
