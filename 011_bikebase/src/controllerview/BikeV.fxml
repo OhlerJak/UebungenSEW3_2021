@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controllerview.BikeC"
+      spacing="10">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <HBox fx:id="hbRahmen" spacing="10">
+        <Label text="Rahmennr:"/>
+        <TextField fx:id="tfrahmen" />
+    </HBox>
+
+    <GridPane hgap="10" vgap="10" fx:id="gpinput">
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="0" text="Marke/Type:"/>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="tfMarke"/>
+
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="1" text="Farbe:"/>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="tfFarbe"/>
+
+    </GridPane>
+
+    <HBox spacing="10" alignment="BASELINE_RIGHT">
+
+        <Button text="Cancel" fx:id="btcancel" onAction="#cancelOnAction"/>
+        <Button text="Select" fx:id="btselect" onAction="#selectOnAction"/>
+        <Button text="Save" fx:id="btsave" onAction="#saveOnAction"/>
+
+    </HBox>
+</VBox>
