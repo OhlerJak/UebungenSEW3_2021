@@ -24,6 +24,7 @@ public class BikeC {
     public Button btselect;
     public Button btsave;
     public GridPane gpinput;
+    public Button btToText;
 
     private Bike model;
     public static void show(Stage stage){
