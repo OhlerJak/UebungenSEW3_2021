@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox spacing="20" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.SitzplanC">
+    <HBox spacing="10">
+        <Label text="Klasse:" alignment="CENTER_LEFT"/>
+        <TextField fx:id="tfKlasse" alignment="CENTER_LEFT" prefWidth="50"/>
+    </HBox>
+    <GridPane fx:id="gpRoom" hgap="5" vgap="5">
+        <children>
+            <TextField fx:id="tf0000" alignment="CENTER" GridPane.columnIndex="0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" />
+            <TextField fx:id="tf0001" alignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" />
+            <TextField fx:id="tf0002" alignment="CENTER" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" />
+            <TextField fx:id="tf0100" alignment="CENTER" GridPane.columnIndex="0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+            <TextField fx:id="tf0101" alignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+            <TextField fx:id="tf0102" alignment="CENTER" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+        </children>
+        <columnConstraints>
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+    </GridPane>
+    <HBox alignment="CENTER_RIGHT">
+        <Button onAction="#onBtSaveAction" text="Save" />
+    </HBox>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
