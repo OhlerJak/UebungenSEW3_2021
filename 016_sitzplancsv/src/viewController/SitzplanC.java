@@ -75,6 +75,6 @@ public class SitzplanC {
       }
     }
     
-    klasse.printSitzplan();
+    klasse.printKlassenliste();
   }
 }

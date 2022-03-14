@@ -17,6 +17,6 @@ public class TheMainConsole {
     dreiahit.setzen(new Sitz(1, 3), null);
     dreiahit.setzen(new Sitz(1, 4), new Schueler("Drapac"));
     
-    dreiahit.printSitzplan();
+    dreiahit.printKlassenliste();
   }
 }
