@@ -3,6 +3,6 @@ SEW Übunge der dritten Klasse
 
 
 Frei zum Download,
-bitte Quellenangabe ;)
+Quellenangabe
 
 Alle Aufgaben wurden von Ohler Jakob erledigt!
